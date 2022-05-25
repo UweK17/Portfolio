@@ -1,2 +1,79 @@
 // This is where you can import other stylesheets or write your scss code
 @use "../../node_modules/bootstrap/scss/bootstrap";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/images/hintergrundlandingpage.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+}
+
+header li{
+    list-style-type: none;
+    margin: calc(1rem + 1vh) calc(1rem + 1vh);
+    font-size: calc(2rem + 1vh);
+    color: rgb(4, 6, 10);
+}
+.beschreibungWeiss{
+    color: white;
+}
+
+@media screen and (max-width: 460px){
+    .name{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 990px){
+    header ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .trenn{
+        display: none;
+    }
+    header li{
+        margin:calc(0.5rem + 1vw)
+    }
+}
+
+.personenangaben{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: calc(8rem + 1vw);
+}
+
+.name{
+    font-size: calc(3rem + 1vw);
+    text-transform: uppercase;
+    letter-spacing: calc(0.5rem + 1vw);
+}
+
+.wohnort{
+    font-size: calc(0.5rem + 1vw);
+    margin-top: calc(4rem + 1vw);
+}
+
+button{
+    font-size: calc(0.5rem + 1vw);
+    margin-top: calc(1rem + 1vw);
+    padding: 5px;
+    border-radius: 5px;
+    background: none;
+}
