@@ -11124,6 +11124,14 @@ textarea.form-control-lg {
   padding: 0;
 }
 
+:root {
+  --fs1: 1rem;
+  --fs2: 2rem;
+  --fs3: 3rem;
+  --fs4: 4rem;
+  --fs5: 5rem;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -11141,8 +11149,8 @@ header ul {
 
 header li {
   list-style-type: none;
-  margin: calc(1rem + 1vh) calc(1rem + 1vh);
-  font-size: calc(2rem + 1vh);
+  margin: calc(var(--fs1) + 1vw);
+  font-size: calc(var(--fs2) + 1vw);
   color: #04060a;
 }
 
@@ -11154,25 +11162,26 @@ header li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: calc(8rem + 1vw);
+  margin-top: calc(var(--fs4) * 2 + 1vw);
 }
 
 .name {
-  font-size: calc(3rem + 1vw);
+  font-size: calc(var(--fs3) + 1vw);
   text-transform: uppercase;
-  letter-spacing: calc(0.5rem + 1vw);
+  letter-spacing: calc(var(--fs1) / 2 + 1vw);
 }
 
 .wohnort {
-  font-size: calc(0.5rem + 1vw);
-  margin-top: calc(4rem + 1vw);
+  font-size: calc(var(--fs1) / 2 + 1vw);
+  margin-top: calc(var(--fs4) + 1vw);
 }
 
 button {
-  font-size: calc(0.5rem + 1vw);
-  margin-top: calc(1rem + 1vw);
+  font-size: calc(var(--fs1) + 1vw);
+  margin-top: calc(var(--fs1) + 1vw);
   padding: 5px;
-  border-radius: 5px;
+  width: calc(var(--fs3) * 3 + 1vw);
+  border-radius: 50px;
   background: none;
 }
 
@@ -11192,7 +11201,7 @@ button {
   }
 
   header li {
-    margin: calc(0.5rem + 1vw);
+    margin: calc(var(--fs1) / 2 + 1vw);
   }
 }
 
