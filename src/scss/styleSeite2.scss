@@ -95,3 +95,11 @@ footer{
     align-items: center;
     font-size: var(--fs4);
 }
+
+button{
+    font-size: calc(var(--fs1) + 1vw);
+    padding: 5px;
+    width: calc(var(--fs3) * 3 + 1vw);
+    border-radius: 50px;
+    background: none;
+}
