@@ -13,10 +13,15 @@
     --fs5: 5rem;
 }
 
+body{
+
+    background-image: linear-gradient(90deg, #a2a39e, #c2c2c2 65%);
+}
+
 header{
     width: 100vw;
     height: 10vh;
-    background-color: yellow;
+    // background-color: yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +50,7 @@ main{
 
 .persDaten{
     grid-area: persDaten;
-    background-color: aqua;
+    // background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,6 +68,8 @@ main{
     background-position-x: 43%;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: inset 10px 10px 25px;
 }
 
 .bild:hover {
@@ -74,7 +81,7 @@ main{
 
 .assets{
     grid-area: assets;
-    background-color: burlywood;
+    // background-color: burlywood;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,11 +92,128 @@ main{
 .ass{
     padding: 2vh 0;
 }
+// animation assets Start______________________________
+@keyframes slotMachine1{
+    0%{
+        position: relative;
+        top: -500px;   
+    }
+    80%{
+        position: relative;
+        top: 500px; 
+    }
+    100%{
+        position: relative;
+        top: 0px; 
+    }
+}
+
+.asset1{
+    position: relative;
+    animation: slotMachine1 5s linear 0s 1 normal forwards;
+}
+
+@keyframes slotMachine2{
+    0%{
+        position: relative;
+        top: -500px;   
+    }
+    80%{
+        position: relative;
+        top: 400px; 
+    }
+    100%{
+        position: relative;
+        top: 0px; 
+    }
+}
+
+.asset2{
+    position: relative;
+    animation: slotMachine2 5s linear 0s 1 normal forwards;
+}
+
+@keyframes slotMachine3{
+    0%{
+        position: relative;
+        top: -500px;   
+    }
+    80%{
+        position: relative;
+        top: 300px; 
+    }
+    100%{
+        position: relative;
+        top: 0px; 
+    }
+}
+
+.asset3{
+    position: relative;
+    animation: slotMachine3 5s linear 0s 1 normal forwards;
+}
+
+@keyframes slotMachine4{
+    0%{
+        position: relative;
+        top: -500px;   
+    }
+    80%{
+        position: relative;
+        top: 200px; 
+    }
+    100%{
+        position: relative;
+        top: 0px; 
+    }
+}
+
+.asset4{
+    position: relative;
+    animation: slotMachine4 5s linear 0s 1 normal forwards;
+}
+
+@keyframes slotMachine5{
+    0%{
+        position: relative;
+        top: -500px;   
+    }
+    80%{
+        position: relative;
+        top: 100px; 
+    }
+    100%{
+        position: relative;
+        top: 0px; 
+    }
+}
+
+.asset5{
+    position: relative;
+    animation: slotMachine5 5s linear 0s 1 normal forwards;
+}
+
+@keyframes slotMachine6{
+    0%{
+        position: relative;
+        top: -500px;   
+    }
+    100%{
+        position: relative;
+        top: 0px; 
+    }
+}
+
+.asset6{
+    position: relative;
+    animation: slotMachine6 4s linear 0s 1 normal forwards;
+}
+// animation assets End___________________________________
 
 footer{
     width: 100vw;
     height: 10vh;
-    background-color: green;
+    // background-color: green;
     display: flex;
     justify-content: space-around;
     align-items: center;
