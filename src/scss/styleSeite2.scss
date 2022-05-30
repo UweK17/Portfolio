@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    // TEXTGRÖSSEN___________________________________________
+    --fs1: 1rem;
+    --fs2: 2rem;
+    --fs3: 3rem;
+    --fs4: 4rem;
+    --fs5: 5rem;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: yellow;
+}
+
+.persDaten{
+    grid-area: persDaten;
+    background-color: aqua;
+}
+
+.bild{
+    grid-area: bild;
+    background-image: url(../images/persBild.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.assets{
+    grid-area: assets;
+    background-color: burlywood;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-areas: 
+    'persDaten bild assets assets'
+    'persDaten bild assets assets';
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: green;
+}
