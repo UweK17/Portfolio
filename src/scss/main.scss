@@ -48,41 +48,65 @@ header li{
     margin-top: calc(var(--fs4) * 2 + 1vw);
 }
 
-.name{
-    animation-name: fliegtEin;
-    animation-duration: 4s;
-}
+// SlotMachineAnimation Start__________________________
+    @keyframes slotMachine{
+        0%{
+            position: relative;
+            top: -500px;   
+        }
+        50%{
+            position: relative;
+            top: 250px; 
+            transform: rotateY(180deg);
+        }
+        100%{
+            position: relative;
+            top: 0px; 
+        }
+    }
 
-@keyframes fliegtEin{
-    0%{
-        margin-left: 150%;
+    #slotMachine .name{
+        position: relative;
+        top: -500px;
+        animation: slotMachine 5s linear 0s 1 normal forwards;
     }
-    50%{
-        margin-left: 75%;
-        font-size: 300%;
-    }
-    90%{
-        color: black;
-    }
-    92%{
-        color: red;
-    }
-    94%{
-        color: black;
-    }
-    96%{
-        color: red;
-    }
-    98%{
-        color: black;
-    }
-    99%{
-        color: red;
-    }
-    100%{
-        color: black;
-    }
-}
+// SlotMachineAnimation End____________________________
+
+// .name{
+//     animation-name: fliegtEin;
+//     animation-duration: 4s;
+// }
+
+// @keyframes fliegtEin{
+//     0%{
+//         margin-left: 150%;
+//     }
+//     50%{
+//         margin-left: 75%;
+//         font-size: 300%;
+//     }
+//     90%{
+//         color: black;
+//     }
+//     92%{
+//         color: red;
+//     }
+//     94%{
+//         color: black;
+//     }
+//     96%{
+//         color: red;
+//     }
+//     98%{
+//         color: black;
+//     }
+//     99%{
+//         color: red;
+//     }
+//     100%{
+//         color: black;
+//     }
+// }
 
 .name{
     font-size: calc(var(--fs3) + 1vw);
