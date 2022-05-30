@@ -86,24 +86,100 @@ main {
   padding: 2vh 0;
 }
 
-@keyframes slotMachine {
+.asset1 {
+  position: relative;
+  animation: slotMachine1 5s linear 0s 1 normal forwards;
+}
+@keyframes slotMachine1 {
   0% {
     position: relative;
     top: -500px;
   }
-  50% {
+  80% {
     position: relative;
-    top: 250px;
+    top: 500px;
   }
   100% {
     position: relative;
     top: 0px;
   }
 }
-.assets {
+
+.asset2 {
   position: relative;
-  top: -500px;
-  animation: slotMachine 5s linear 0s 1 normal forwards;
+  animation: slotMachine2 5s linear 0s 1 normal forwards;
+}
+@keyframes slotMachine2 {
+  0% {
+    top: -500px;
+  }
+  80% {
+    top: 400px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.asset3 {
+  position: relative;
+  animation: slotMachine3 5s linear 0s 1 normal forwards;
+}
+@keyframes slotMachine3 {
+  0% {
+    top: -500px;
+  }
+  80% {
+    top: 300px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.asset4 {
+  position: relative;
+  animation: slotMachine4 5s linear 0s 1 normal forwards;
+}
+@keyframes slotMachine4 {
+  0% {
+    top: -500px;
+  }
+  80% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.asset5 {
+  position: relative;
+  animation: slotMachine5 5s linear 0s 1 normal forwards;
+}
+@keyframes slotMachine5 {
+  0% {
+    top: -500px;
+  }
+  80% {
+    top: 100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.asset6 {
+  position: relative;
+  animation: slotMachine6 4s linear 0s 1 normal forwards;
+}
+@keyframes slotMachine6 {
+  0% {
+    top: -500px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 footer {
