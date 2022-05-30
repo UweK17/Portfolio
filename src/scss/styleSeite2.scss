@@ -68,8 +68,10 @@ main{
     background-position-x: 43%;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 15px;
-    box-shadow: inset 10px 10px 25px;
+    border-radius: 50px;
+    // box-shadow: inset 10px 10px 25px;
+    box-shadow: inset 15px 15px 37px rgba(77, 67, 67, 1),
+                inset -15px -15px 37px rgba(77, 67, 67, 0.7);
 }
 
 .bild:hover {
@@ -93,8 +95,6 @@ main{
     padding: 2vh 0;
 }
 // animation assets Start______________________________
-
-
 .asset1{
     position: relative;
     animation: slotMachine1 5s linear 0s 1 normal forwards;
@@ -115,8 +115,6 @@ main{
     }
 }
 
-
-
 .asset2{
     position: relative;
     animation: slotMachine2 5s linear 0s 1 normal forwards;
@@ -133,8 +131,6 @@ main{
         }
     }
 }
-
-
 
 .asset3{
     position: relative;
@@ -170,8 +166,6 @@ main{
     }
 }
 
-
-
 .asset5{
     position: relative;
     animation: slotMachine5 5s linear 0s 1 normal forwards;
@@ -188,8 +182,6 @@ main{
         }
     }
 }
-
-
 
 .asset6{
     position: relative;
