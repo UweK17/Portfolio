@@ -93,122 +93,119 @@ main{
     padding: 2vh 0;
 }
 // animation assets Start______________________________
-@keyframes slotMachine1{
-    0%{
-        position: relative;
-        top: -500px;   
-    }
-    80%{
-        position: relative;
-        top: 500px; 
-    }
-    100%{
-        position: relative;
-        top: 0px; 
-    }
-}
+
 
 .asset1{
     position: relative;
     animation: slotMachine1 5s linear 0s 1 normal forwards;
+
+    @keyframes slotMachine1{
+        0%{
+            position: relative;
+            top: -500px;   
+        }
+        80%{
+            position: relative;
+            top: 500px; 
+        }
+        100%{
+            position: relative;
+            top: 0px; 
+        }
+    }
 }
 
-@keyframes slotMachine2{
-    0%{
-        position: relative;
-        top: -500px;   
-    }
-    80%{
-        position: relative;
-        top: 400px; 
-    }
-    100%{
-        position: relative;
-        top: 0px; 
-    }
-}
+
 
 .asset2{
     position: relative;
     animation: slotMachine2 5s linear 0s 1 normal forwards;
+
+    @keyframes slotMachine2{
+        0%{
+            top: -500px;   
+        }
+        80%{
+            top: 400px; 
+        }
+        100%{
+            top: 0px; 
+        }
+    }
 }
 
-@keyframes slotMachine3{
-    0%{
-        position: relative;
-        top: -500px;   
-    }
-    80%{
-        position: relative;
-        top: 300px; 
-    }
-    100%{
-        position: relative;
-        top: 0px; 
-    }
-}
+
 
 .asset3{
     position: relative;
     animation: slotMachine3 5s linear 0s 1 normal forwards;
-}
 
-@keyframes slotMachine4{
-    0%{
-        position: relative;
-        top: -500px;   
-    }
-    80%{
-        position: relative;
-        top: 200px; 
-    }
-    100%{
-        position: relative;
-        top: 0px; 
+    @keyframes slotMachine3{
+        0%{
+            top: -500px;   
+        }
+        80%{
+            top: 300px; 
+        }
+        100%{
+            top: 0px; 
+        }
     }
 }
 
 .asset4{
     position: relative;
     animation: slotMachine4 5s linear 0s 1 normal forwards;
+
+    @keyframes slotMachine4{
+        0%{
+            top: -500px;   
+        }
+        80%{
+            top: 200px; 
+        }
+        100%{
+            top: 0px; 
+        }
+    }
 }
 
-@keyframes slotMachine5{
-    0%{
-        position: relative;
-        top: -500px;   
-    }
-    80%{
-        position: relative;
-        top: 100px; 
-    }
-    100%{
-        position: relative;
-        top: 0px; 
-    }
-}
+
 
 .asset5{
     position: relative;
     animation: slotMachine5 5s linear 0s 1 normal forwards;
+
+    @keyframes slotMachine5{
+        0%{
+            top: -500px;   
+        }
+        80%{
+            top: 100px; 
+        }
+        100%{
+            top: 0px; 
+        }
+    }
 }
 
-@keyframes slotMachine6{
-    0%{
-        position: relative;
-        top: -500px;   
-    }
-    100%{
-        position: relative;
-        top: 0px; 
-    }
-}
+
 
 .asset6{
     position: relative;
     animation: slotMachine6 4s linear 0s 1 normal forwards;
+
+    @keyframes slotMachine6{
+        0%{
+            top: -500px;   
+        }
+        100%{
+            top: 0px; 
+        }
+    }
 }
 // animation assets End___________________________________
+
 
 footer{
     width: 100vw;
