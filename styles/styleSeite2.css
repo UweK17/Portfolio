@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fs1: 1rem;
+  --fs2: 2rem;
+  --fs3: 3rem;
+  --fs4: 4rem;
+  --fs5: 5rem;
+}
+
+body {
+  background-image: linear-gradient(90deg, #a2a39e, #c2c2c2 65%);
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: var(--fs2);
+}
+
+.pDheader1 {
+  width: 33%;
+  text-align: center;
+}
+
+.pDheader2 {
+  width: 49%;
+  text-align: center;
+}
+
+main {
+  width: 100vw;
+  height: 80vh;
+  display: grid;
+  grid-template-areas: "persDaten bild assets assets" "persDaten bild assets assets";
+}
+
+.persDaten {
+  grid-area: persDaten;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--fs3);
+}
+
+.pD {
+  padding: 2vh 0;
+}
+
+.bild {
+  grid-area: bild;
+  background-image: url(../images/Uwe1.jpg);
+  background-position-x: 43%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  box-shadow: inset 10px 10px 25px;
+}
+
+.bild:hover {
+  background-image: url(../images/persBild.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.assets {
+  grid-area: assets;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--fs3);
+}
+
+.ass {
+  padding: 2vh 0;
+}
+
+@keyframes slotMachine {
+  0% {
+    position: relative;
+    top: -500px;
+  }
+  50% {
+    position: relative;
+    top: 250px;
+  }
+  100% {
+    position: relative;
+    top: 0px;
+  }
+}
+.assets {
+  position: relative;
+  top: -500px;
+  animation: slotMachine 5s linear 0s 1 normal forwards;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: var(--fs4);
+}
+
+button {
+  font-size: calc(var(--fs1) + 1vw);
+  padding: 5px;
+  width: calc(var(--fs3) * 3 + 1vw);
+  border-radius: 50px;
+  background: none;
+}
+
+/*# sourceMappingURL=styleSeite2.css.map */
