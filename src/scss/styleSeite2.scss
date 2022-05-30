@@ -59,6 +59,13 @@ main{
 
 .bild{
     grid-area: bild;
+    background-image: url(../images/Uwe1.jpg);
+    background-position-x: 43%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bild:hover {
     background-image: url(../images/persBild.jpg);
     background-position: center;
     background-size: cover;
