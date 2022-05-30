@@ -17,6 +17,21 @@ header{
     width: 100vw;
     height: 10vh;
     background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: var(--fs2);
+}
+
+.pDheader1{
+    width: 33%;
+    text-align: center;
+}
+
+.pDheader2{
+    width: 49%;
+    text-align: center;
 }
 
 main{
@@ -53,12 +68,23 @@ main{
 .assets{
     grid-area: assets;
     background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fs3);
 }
 
-
+.ass{
+    padding: 2vh 0;
+}
 
 footer{
     width: 100vw;
     height: 10vh;
     background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fs4);
 }
