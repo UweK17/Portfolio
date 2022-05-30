@@ -62,8 +62,8 @@ main {
   background-position-x: 43%;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 15px;
-  box-shadow: inset 10px 10px 25px;
+  border-radius: 50px;
+  box-shadow: inset 15px 15px 37px #4d4343, inset -15px -15px 37px rgba(77, 67, 67, 0.7);
 }
 
 .bild:hover {
